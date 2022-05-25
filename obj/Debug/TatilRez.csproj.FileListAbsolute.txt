@@ -1,0 +1,14 @@
+C:\Users\UCY\source\repos\TatilRez\TatilRez\bin\Debug\TatilRez.exe.config
+C:\Users\UCY\source\repos\TatilRez\TatilRez\bin\Debug\TatilRez.exe
+C:\Users\UCY\source\repos\TatilRez\TatilRez\bin\Debug\TatilRez.pdb
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.csproj.AssemblyReference.cache
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.csproj.SuggestedBindingRedirects.cache
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.Properties.Resources.resources
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.csproj.GenerateResource.cache
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.csproj.CoreCompileInputs.cache
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.exe
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.pdb
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.frmRez.resources
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.FrmGiris.resources
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.FrmRezGoster.resources
+C:\Users\UCY\source\repos\TatilRez\TatilRez\obj\Debug\TatilRez.FrmRapor.resources
