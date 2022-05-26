@@ -170,9 +170,14 @@
             // 
             this.cmbxNereye.FormattingEnabled = true;
             this.cmbxNereye.Items.AddRange(new object[] {
-            "Adana",
-            "Ankara",
-            "Erzurum"});
+            "Adana (Çukurova)",
+            "Adana (Seyhan)",
+            "Adana (Yüreğir)",
+            "Adana (Sarıçam)",
+            "Adana (Karataş)",
+            "Adana (Ceyhan)",
+            "Adana (Pozantı)",
+            "Adana (Feke)"});
             this.cmbxNereye.Location = new System.Drawing.Point(136, 125);
             this.cmbxNereye.Name = "cmbxNereye";
             this.cmbxNereye.Size = new System.Drawing.Size(100, 21);
@@ -195,7 +200,16 @@
             this.cmbxNereden.Items.AddRange(new object[] {
             "Adana",
             "Ankara",
-            "Erzurum"});
+            "Erzurum",
+            "İzmir",
+            "Paris",
+            "Marsilya",
+            "Roma",
+            "Milano (Milan)",
+            "Barcelona",
+            "Madrid (Real)",
+            "Mancster (United)",
+            "Münih (Bayren)"});
             this.cmbxNereden.Location = new System.Drawing.Point(136, 98);
             this.cmbxNereden.Name = "cmbxNereden";
             this.cmbxNereden.Size = new System.Drawing.Size(100, 21);

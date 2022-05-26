@@ -33,7 +33,7 @@ namespace TatilRez
             ToplamFiyat = _UlasimBase.UlasimFiyati + (KonaklamaSuresi * _konaklamaBase.KonaklamaFiyati);
 
             mesaj = "Ulaşım Türü: " + UlasimTuru + "\n Konaklama Türü: " + KonaklamaTuru + "\n Toplam Fiyat: " + ToplamFiyat;
-                SqlCommand komut = new SqlCommand("INSERT INTO tblRezBilgileri(TCKN,Ad,Soyad,Ulasim,Konaklama,Nereden,Nereye,GidisTarih,DonusTarih,Fiyat) VALUES(@TCKN,@MusteriAd,@MusteriSoyad,@KonaklamaTuru,@UlasimTuru,@Nereden,@Nereye,@GidisTarih,@DonusTarih,@Fiyat)", Datacon.baglanti());
+                SqlCommand komut = new SqlCommand("INSERT INTO tblRezBilgileri(TCKN,Ad,Soyad,Ulasim,Konaklama,Nereden,Nereye,GidisTarih,DonusTarih,Fiyat) VALUES(@TCKN,@MusteriAd,@MusteriSoyad,@UlasimTuru,@KonaklamaTuru,@Nereden,@Nereye,@GidisTarih,@DonusTarih,@Fiyat)", Datacon.baglanti());
                 komut.Parameters.AddWithValue("@TCKN", TCKN);
                 komut.Parameters.AddWithValue("@MusteriAd", MusteriAd);
                 komut.Parameters.AddWithValue("@MusteriSoyad", MusteriSoyad);

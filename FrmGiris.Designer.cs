@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelFill = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panelFill.SuspendLayout();
             this.SuspendLayout();
@@ -53,12 +54,25 @@
             this.panelMenu.Size = new System.Drawing.Size(896, 100);
             this.panelMenu.TabIndex = 0;
             // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button4.Location = new System.Drawing.Point(691, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(205, 100);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Çıkış Yap";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // button3
             // 
             this.button3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button3.Location = new System.Drawing.Point(480, 0);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.Location = new System.Drawing.Point(511, 0);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(160, 100);
+            this.button3.Size = new System.Drawing.Size(180, 100);
             this.button3.TabIndex = 3;
             this.button3.Text = "Raporlar";
             this.button3.UseVisualStyleBackColor = true;
@@ -67,9 +81,10 @@
             // button2
             // 
             this.button2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button2.Location = new System.Drawing.Point(320, 0);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(324, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(160, 100);
+            this.button2.Size = new System.Drawing.Size(187, 100);
             this.button2.TabIndex = 2;
             this.button2.Text = "Rezervasyon Göster";
             this.button2.UseVisualStyleBackColor = true;
@@ -78,9 +93,10 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.Location = new System.Drawing.Point(160, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 100);
+            this.button1.Size = new System.Drawing.Size(164, 100);
             this.button1.TabIndex = 1;
             this.button1.Text = "Rezervasyon Yap";
             this.button1.UseVisualStyleBackColor = true;
@@ -97,7 +113,8 @@
             // 
             // panelFill
             // 
-            this.panelFill.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelFill.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelFill.Controls.Add(this.label1);
             this.panelFill.Controls.Add(this.panelMenu);
             this.panelFill.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelFill.Location = new System.Drawing.Point(0, 0);
@@ -105,16 +122,16 @@
             this.panelFill.Size = new System.Drawing.Size(896, 536);
             this.panelFill.TabIndex = 2;
             // 
-            // button4
+            // label1
             // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button4.Location = new System.Drawing.Point(640, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(160, 100);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Çıkış Yap";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label1.Location = new System.Drawing.Point(134, 238);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(653, 73);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Rezervasyon Sistemi";
             // 
             // FrmGiris
             // 
@@ -126,6 +143,7 @@
             this.Text = "FrmGiris";
             this.panelMenu.ResumeLayout(false);
             this.panelFill.ResumeLayout(false);
+            this.panelFill.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -139,5 +157,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label1;
     }
 }
